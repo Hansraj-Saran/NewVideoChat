@@ -52,7 +52,7 @@ const user = prompt("Enter your name");
 //   });
 var peer = new Peer({
   host: '/',
-  port: 3030,
+  port: 9000,
   path: '/peerjs',
   secure: true,
   config: {
