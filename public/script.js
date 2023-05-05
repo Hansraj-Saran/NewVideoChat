@@ -52,9 +52,8 @@ const user = prompt("Enter your name");
 //   });
 var peer = new Peer({
   host: '/',
-  port: 9000,
+  port: '3030',
   path: '/peerjs',
-  secure: true,
   config: {
     'iceServers': [
       { url: 'stun:stun01.sipphone.com' },
